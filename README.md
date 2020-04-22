@@ -16,7 +16,7 @@ Initialized empty Git repository in /Users/lapotok/nodejs/git-learn/.git/
 ```
 $ git remote add origin https://github.com/lapotok/git-learn.git
 ```
-+ создаю файл `README.md`, что-то пишу там
++ создаю файл `README.md`, что-то пишу там (кстати, сначала я создал файл `Readme.md`, потом пришлось внести изменение названия в систему командой `git mv Readme.md README.md`)
 + добавляю эту версию файла `git add README.md`
 + подписываю сделанные изменения и вношу их в систему протоколирования
 
