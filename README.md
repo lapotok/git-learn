@@ -57,3 +57,16 @@ nothing to commit, working tree clean
 $ git checkout -b develop
 Switched to a new branch 'develop'
 ```
+
+А вот еще создал подветвь для фикса инфы про переименование. Потом допишу.
+
+```
+lpt-bigmac:git-learn lapotok$ git checkout -b fix_rename_description
+lpt-bigmac:git-learn lapotok$ git checkout develop 
+Switched to branch 'develop'
+lpt-bigmac:git-learn lapotok$ git merge fix_rename_description
+Updating f008e24..cfa27aa
+Fast-forward
+ README.md | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
